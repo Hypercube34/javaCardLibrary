@@ -10,8 +10,8 @@
     
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany</groupId>
-    <artifactId>java_card_library</artifactId>
-    <version>1.0-0</version>
+    <artifactId>java-card-library</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
