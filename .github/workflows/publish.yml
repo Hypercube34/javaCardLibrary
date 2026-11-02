@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: read
       packages: write
+      
 
     steps:
       - uses: actions/checkout@v4
@@ -20,6 +21,15 @@ jobs:
           distribution: temurin
           java-version: '21'
           server-id: github
+
+      - name: Verify Maven project
+        run: |
+          git log -1 --oneline
+          mvn help:evaluate -Dexpression=project.artifactId -q -DforceStdout
+          echo ""
+          mvn help:evaluate -Dexpression=project.version -q -DforceStdout
+          echo ""
+          mvn help:evaluate -Dexpression=project.distributionManagement.repository.url -q -DforceStdout
 
       - name: Publish to GitHub Packages
         run: mvn --batch-mode --errors deploy
