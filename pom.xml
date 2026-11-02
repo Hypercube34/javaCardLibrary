@@ -4,13 +4,13 @@
     <repository>
         <id>github</id>
         <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/Hypercube34/java_card_library</url>
+        <url>https://maven.pkg.github.com/Hypercube34/javaCardLibrary</url>
     </repository>
     </distributionManagement>
     
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany</groupId>
-    <artifactId>javaCardLibrary</artifactId>
+    <artifactId>java_card_library</artifactId>
     <version>1.0-0</version>
     <packaging>jar</packaging>
     <properties>
