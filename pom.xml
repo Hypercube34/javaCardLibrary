@@ -4,7 +4,7 @@
     <repository>
         <id>github</id>
         <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/Hypercube34/javaCardLibrary</url>
+        <url>https://maven.pkg.github.com/Hypercube34/java_card_library</url>
     </repository>
     </distributionManagement>
     
